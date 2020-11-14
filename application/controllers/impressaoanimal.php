@@ -7,7 +7,7 @@ class impressaoanimal extends CI_Controller {
     public function __construct(){
         parent::__construct();
     }
-
+    
 	public function verificar_sessao(){
 		if ($this->session->userdata('logado')==false){
 				redirect('dashboard/login');

@@ -44,12 +44,21 @@ class Dashboard extends CI_Controller {
 		$this->load->view('includes/html_footer');
 	}
 
+
 	public function login($indice=null){
 		if($indice==1){
 			$data['msg']="E-mail ou senha estão incorretos!!!!";
 			$this->load->view('includes/msg_erro',$data);
 		}
 			$this->load->view('login');
+		
+	}
+	public function recuperarsenha($indice=null){
+		if($indice==1){
+			$data['msg']="E-mail incorreto!!!!";
+			$this->load->view('includes/msg_erro',$data);
+		}
+			$this->load->view('recuperar_senha');
 		
 	}
 	public function empresa($indice=null){

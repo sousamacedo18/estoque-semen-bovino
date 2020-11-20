@@ -31,7 +31,7 @@
       </div>
       <button class="btn btn-lg btn-primary btn-block" type="submit">Enviar</button>
       <div class="p">
-      <a href="#">Logar/a>
+      <a href="<?=base_url()?>dashboard/" >Logar</a>
       </div>
       <p class="mt-5 mb-3 text-muted">&copy; 2020-2021</p>
       <!-- <p class="mt-5 mb-3 text-muted"><a href="<?=base_url()?>dashboard/empresa">CADASTRAR EMPRESA</a></p> -->
